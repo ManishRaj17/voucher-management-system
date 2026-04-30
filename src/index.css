@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #efefef;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.voucher-container {
+  width: 95%;
+  margin: 20px auto;
+  background: #f7f7f7;
+}
+
+.header-bar {
+  background: #b8b4f0;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left button {
+  background: #ff3c3c;
+  color: white;
+  padding: 8px 12px;
+  margin-right: 8px;
+}
+
+.save-button {
+  background: orange;
+  color: white;
+  padding: 8px 14px;
+}
+
+.form-top {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.ledger-box {
+  margin: 15px;
+  border: 1px solid #ddd;
+}
+
+.ledger-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 80px;
+  background: #b8b4f0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.ledger-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 80px;
+  padding: 10px;
+  gap: 5px;
+  background: #fafafa;
+}
+
+.total-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-weight: bold;
+}
